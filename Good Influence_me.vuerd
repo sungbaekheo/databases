@@ -1,0 +1,1819 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -532,
+    "scrollLeft": -18,
+    "zoomLevel": 0.9,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "MARKET_INFO",
+        "comment": "Main",
+        "columns": [
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a4747042-0646-4111-a8fd-65ec61169b91"
+          },
+          {
+            "name": "MARKET_NAME",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 94.447265625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "163d46f3-6702-4366-a5ac-b7bb2c3cc60c"
+          },
+          {
+            "name": "MARKET_ADDRESS",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 113.2744140625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a0349d8c-ca97-40aa-b088-9f7904afa85d"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 757,
+          "top": 981,
+          "zIndex": 540,
+          "widthName": 87.29345703125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "7be7af66-dadb-48c9-a9f9-207e27c10a8d"
+      },
+      {
+        "name": "MARKET_REGIONS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "REGION_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 130.578125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3f4fd4e3-40b8-464c-abd1-bf55cebd4acd"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e2d1c756-0c3c-4b92-b30c-81d89d31abc9"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1372.75,
+          "top": 1331,
+          "zIndex": 558,
+          "widthName": 111.64306640625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "6897044a-990e-49b4-ad6f-688638f30710"
+      },
+      {
+        "name": "REGION_NUMBERS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "REGION_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 130.578125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9c0fe8fb-79a2-412d-811f-7e69d1eabd99"
+          },
+          {
+            "name": "REGION",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "0972c1b8-0257-4d7f-9e3d-618aa6618572"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1371.5,
+          "top": 1577.75,
+          "zIndex": 572,
+          "widthName": 115.115234375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "3e0c651c-c0c6-4797-9e18-2dcdf967a4f7"
+      },
+      {
+        "name": "OWNER_NAMES",
+        "comment": "",
+        "columns": [
+          {
+            "name": "OWNER_NAME_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 173.02490234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9d9481d4-2778-47d0-89bd-be9645d7eb7a"
+          },
+          {
+            "name": "OWNER_NAME",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 91.73046875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "46e935a9-c9af-41cf-b101-964cef7dcbd0"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 36.9998,
+          "top": 1293.5837,
+          "zIndex": 552,
+          "widthName": 98.7890625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d49fdc6e-c457-44a7-9042-2a48806d24ab"
+      },
+      {
+        "name": "MARKET_OWNERS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "OWNER_NAME_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 173.02490234375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3b87e5f9-7624-48cd-acd7-8d1cae556a45"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "045d2fb3-ebd6-4e19-b576-df9df6dcfc6d"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 37.4153,
+          "top": 1059.2038,
+          "zIndex": 551,
+          "widthName": 111.408203125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b72e807d-f175-4f0c-aab7-857ec3d69b8b"
+      },
+      {
+        "name": "PHONE_NUMBERS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "PHONE_NUMBER_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 185.63134765625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "773c1c09-90c4-4962-b819-96aa6ed428ba"
+          },
+          {
+            "name": "PHONE_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 104.3369140625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b86a1b2e-fb67-4508-b771-f7d219fdeadc"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 35,
+          "top": 703.5,
+          "zIndex": 548,
+          "widthName": 111.3955078125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "54bc7aa6-b4b6-4525-8a56-f510905f9551"
+      },
+      {
+        "name": "MARKET_CONTACTS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "PHONE_NUMBER_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 185.63134765625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "85ac8e5c-7a9d-4522-9e18-3b47a17c36be"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "34e8a5dd-12d5-4971-9582-7ab637143479"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 35,
+          "top": 924.5,
+          "zIndex": 550,
+          "widthName": 121.87548828125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d8d2cf7b-a0a9-4471-bbec-7364f245bf8a"
+      },
+      {
+        "name": "OPENING_DAYS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "DAY_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 107.2060546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4faa0c2e-f235-43b3-ac82-bd92da17c269"
+          },
+          {
+            "name": "DAY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ea136818-a8d6-4c47-938a-31d93682bf84"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 87.75,
+          "top": 1699.75,
+          "zIndex": 554,
+          "widthName": 95.0439453125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "f6a1caa1-8afc-48bf-ba86-7328813969a0"
+      },
+      {
+        "name": "OPENING_HOURS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "OPEN_HOUR_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 159.5107421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2f167f9c-c0d8-4dab-ab6e-1b97530cf08b"
+          },
+          {
+            "name": "OPEN_HOUR",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 78.21630859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "4a09f0ea-01b8-4308-aaca-594b6940f022"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 222.2393,
+          "top": 1828,
+          "zIndex": 557,
+          "widthName": 107.853515625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "196044fd-04e8-45ca-afb1-4add082c9b98"
+      },
+      {
+        "name": "BREAKS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "BREAK_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 121.8310546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2c244d6f-0e26-45ca-9ed8-c1a3fd875c4c"
+          },
+          {
+            "name": "BREAK_TIME",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 75.1630859375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2768a627-a380-4496-9ded-93694314ccc1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 937.4189,
+          "top": 1840.5,
+          "zIndex": 556,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b536f0e9-4f85-46b7-9123-b0c0851509ba"
+      },
+      {
+        "name": "MARKET_OPENS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "a954cbff-27be-45dc-af8a-d3e9d588577e"
+          },
+          {
+            "name": "DAY_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 107.2060546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "abaa35a1-69f9-4257-b56e-881f6f438271"
+          },
+          {
+            "name": "OPEN_HOUR_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 159.5107421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9c70012e-df38-4c93-b8ba-c8e4375e2795"
+          },
+          {
+            "name": "BREAK_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 121.8310546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "41f5a573-47e1-486e-8f6d-a242191df1d1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 583.5,
+          "top": 1471,
+          "zIndex": 573,
+          "widthName": 98.50341796875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "fd90108f-48d0-40b8-a942-6e0470fd21e6"
+      },
+      {
+        "name": "MENUS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "MENU_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 121.0185546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "23d68708-78fa-4ba1-9655-2677633c3466"
+          },
+          {
+            "name": "MENU",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c41241ce-bfc0-44b7-9caf-0ecea93ff656"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1519.75,
+          "top": 681.5,
+          "zIndex": 571,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "8e28b27c-9bd7-4562-8ade-92d633a730fe"
+      },
+      {
+        "name": "MARKET_OFFERS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "MENU_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 121.0185546875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3ca2708f-ab30-4d52-ad62-12a0d5d7083f"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b3ff098f-7f9b-402d-b018-142b4fdfc2a1"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1259,
+          "top": 911.75,
+          "zIndex": 563,
+          "widthName": 102.0263671875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "0750a1d9-5363-45fd-89ff-cbab4c6f807d"
+      },
+      {
+        "name": "TO_WHOM",
+        "comment": "",
+        "columns": [
+          {
+            "name": "WHO_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 115.166015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6d862671-7afe-4ba7-9f4e-e52370ad215e"
+          },
+          {
+            "name": "WHO",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "cfbbbc9f-2d5b-495b-899b-6e28f5e8c63b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1567.834,
+          "top": 371.75,
+          "zIndex": 570,
+          "widthName": 67.69189453125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "5db13313-1484-42d0-819b-e2afe0ddd2f4"
+      },
+      {
+        "name": "OFFERS_TO_1",
+        "comment": "",
+        "columns": [
+          {
+            "name": "WHO_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 115.166015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "c6d834d7-c89e-4f5b-99d4-623585cec337"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9bee4e51-5f84-4a59-8289-7d54ff41ae97"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1085,
+          "top": 446.25,
+          "zIndex": 569,
+          "widthName": 81.3203125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "62d54612-1a93-47d2-aa80-883a333bb8a6"
+      },
+      {
+        "name": "OFFERS_TO_2",
+        "comment": "",
+        "columns": [
+          {
+            "name": "WHO_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 115.166015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "2ad8f11d-2882-4340-9c88-ff9823d7ca25"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "f3aa13c1-9b62-4df7-a7ca-c412cc5b3ae4"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1086,
+          "top": 299.25,
+          "zIndex": 568,
+          "widthName": 81.3203125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "929e9653-4063-4b8b-848a-4e42cfe68238"
+      },
+      {
+        "name": "PARTICIPATE_KEYS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "PARTICIPANTS_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 166.7978515625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6531c80c-048f-42c7-8a22-faffde535df4"
+          },
+          {
+            "name": "PARTICIPANTS",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 85.50341796875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "8af085b0-49f0-4a75-8c40-f90da7f4cb2b"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 600.5,
+          "top": 66.75,
+          "zIndex": 531,
+          "widthName": 108.34228515625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "92a29336-9a04-43cf-ae1a-4ee81c8b3624"
+      },
+      {
+        "name": "DONATE_MONEY",
+        "comment": "",
+        "columns": [
+          {
+            "name": "MONEY_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 129.26416015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "af3837ec-e3a6-45c9-a011-335b47137528"
+          },
+          {
+            "name": "MONEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "7626d317-d008-4e53-b992-b5560cefd47f"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 0,
+          "top": 67,
+          "zIndex": 532,
+          "widthName": 104.03857421875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "fe22a985-9ca1-4afd-beb2-9c4403a24f7e"
+      },
+      {
+        "name": "REGULAR_DONATIONS",
+        "comment": "",
+        "columns": [
+          {
+            "name": "MONEY_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 129.26416015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "fd88834b-31f6-4eb9-94ce-812b9a461c31"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e14a5959-6172-4dda-b17b-e67a3f37f1ec"
+          },
+          {
+            "name": "PARTICIPANTS_UNIQUE_KEY",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 166.7978515625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "aa6fa0c8-79d7-484e-a48a-564e92ca2681"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 279.5,
+          "top": 313.75,
+          "zIndex": 533,
+          "widthName": 137.9541015625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "36fe9d31-4f74-48bd-8eb2-9ff74017f5ff"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "f6a1caa1-8afc-48bf-ba86-7328813969a0",
+          "columnIds": [
+            "4faa0c2e-f235-43b3-ac82-bd92da17c269"
+          ],
+          "x": 481.9560546875,
+          "y": 1754.75,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "fd90108f-48d0-40b8-a942-6e0470fd21e6",
+          "columnIds": [
+            "abaa35a1-69f9-4257-b56e-881f6f438271"
+          ],
+          "x": 583.5,
+          "y": 1546.5,
+          "direction": "left"
+        },
+        "constraintName": "fk_opening_days_to_market_opens",
+        "visible": true,
+        "id": "4c6429df-f60d-4b2b-880b-b516fc4b8d66"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 957.13720703125,
+          "y": 1111.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "fd90108f-48d0-40b8-a942-6e0470fd21e6",
+          "columnIds": [
+            "a954cbff-27be-45dc-af8a-d3e9d588577e"
+          ],
+          "x": 806.75537109375,
+          "y": 1471,
+          "direction": "top"
+        },
+        "constraintName": "fk_market_info_to_market_opens",
+        "visible": true,
+        "id": "ca5ccb20-015c-4b74-af21-9dbc0199364b"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "196044fd-04e8-45ca-afb1-4add082c9b98",
+          "columnIds": [
+            "2f167f9c-c0d8-4dab-ab6e-1b97530cf08b"
+          ],
+          "x": 668.7500421875,
+          "y": 1883,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "fd90108f-48d0-40b8-a942-6e0470fd21e6",
+          "columnIds": [
+            "9c70012e-df38-4c93-b8ba-c8e4375e2795"
+          ],
+          "x": 695.127685546875,
+          "y": 1622,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_opening_hours_to_market_opens",
+        "visible": true,
+        "id": "bbeee163-a470-48c4-9d05-8a35fd9a320a"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b536f0e9-4f85-46b7-9123-b0c0851509ba",
+          "columnIds": [
+            "2c244d6f-0e26-45ca-9ed8-c1a3fd875c4c"
+          ],
+          "x": 937.4189,
+          "y": 1895.5,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "fd90108f-48d0-40b8-a942-6e0470fd21e6",
+          "columnIds": [
+            "41f5a573-47e1-486e-8f6d-a242191df1d1"
+          ],
+          "x": 918.383056640625,
+          "y": 1622,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_breaks_to_market_opens",
+        "visible": true,
+        "id": "1d4a4e87-1bd9-4e79-b850-9e4f39a8ba5b"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "d49fdc6e-c457-44a7-9042-2a48806d24ab",
+          "columnIds": [
+            "9d9481d4-2778-47d0-89bd-be9645d7eb7a"
+          ],
+          "x": 267.012251171875,
+          "y": 1293.5837,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "b72e807d-f175-4f0c-aab7-857ec3d69b8b",
+          "columnIds": [
+            "3b87e5f9-7624-48cd-acd7-8d1cae556a45"
+          ],
+          "x": 267.427751171875,
+          "y": 1169.2038,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_owner_names_to_market_owners",
+        "visible": true,
+        "id": "50ec5f38-5243-44cd-8ba5-da082e15599e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 757,
+          "y": 1078.875,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "b72e807d-f175-4f0c-aab7-857ec3d69b8b",
+          "columnIds": [
+            "045d2fb3-ebd6-4e19-b576-df9df6dcfc6d"
+          ],
+          "x": 497.44020234375,
+          "y": 1114.2038,
+          "direction": "right"
+        },
+        "constraintName": "fk_market_info_to_market_owners",
+        "visible": true,
+        "id": "6454abe7-5129-419a-98f3-26183fb87c60"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "8e28b27c-9bd7-4562-8ade-92d633a730fe",
+          "columnIds": [
+            "23d68708-78fa-4ba1-9655-2677633c3466"
+          ],
+          "x": 1723.75927734375,
+          "y": 791.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "0750a1d9-5363-45fd-89ff-cbab4c6f807d",
+          "columnIds": [
+            "3ca2708f-ab30-4d52-ad62-12a0d5d7083f"
+          ],
+          "x": 1667.0185546875,
+          "y": 966.75,
+          "direction": "right"
+        },
+        "constraintName": "fk_menus_to_market_offers",
+        "visible": true,
+        "id": "76e8de07-51b8-45ce-9139-97f399f4ef22"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 1157.2744140625,
+          "y": 1013.625,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "0750a1d9-5363-45fd-89ff-cbab4c6f807d",
+          "columnIds": [
+            "b3ff098f-7f9b-402d-b018-142b4fdfc2a1"
+          ],
+          "x": 1259,
+          "y": 966.75,
+          "direction": "left"
+        },
+        "constraintName": "fk_market_info_to_market_offers",
+        "visible": true,
+        "id": "41c84ad9-4c6c-4342-985a-fd67b4a10cd9"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "5db13313-1484-42d0-819b-e2afe0ddd2f4",
+          "columnIds": [
+            "6d862671-7afe-4ba7-9f4e-e52370ad215e"
+          ],
+          "x": 1567.834,
+          "y": 399.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "929e9653-4063-4b8b-848a-4e42cfe68238",
+          "columnIds": [
+            "2ad8f11d-2882-4340-9c88-ff9823d7ca25"
+          ],
+          "x": 1488.166015625,
+          "y": 354.25,
+          "direction": "right"
+        },
+        "constraintName": "fk_to_whom_to_offers_to_2",
+        "visible": true,
+        "id": "3317a212-664f-4ef4-8ecd-16f528ca5815"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "5db13313-1484-42d0-819b-e2afe0ddd2f4",
+          "columnIds": [
+            "6d862671-7afe-4ba7-9f4e-e52370ad215e"
+          ],
+          "x": 1567.834,
+          "y": 454.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "62d54612-1a93-47d2-aa80-883a333bb8a6",
+          "columnIds": [
+            "c6d834d7-c89e-4f5b-99d4-623585cec337"
+          ],
+          "x": 1487.166015625,
+          "y": 501.25,
+          "direction": "right"
+        },
+        "constraintName": "fk_to_whom_to_offers_to_1",
+        "visible": true,
+        "id": "e60e2907-c539-4654-85b4-e96ed413f9b8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 823.71240234375,
+          "y": 981,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "62d54612-1a93-47d2-aa80-883a333bb8a6",
+          "columnIds": [
+            "9bee4e51-5f84-4a59-8289-7d54ff41ae97"
+          ],
+          "x": 1085,
+          "y": 501.25,
+          "direction": "left"
+        },
+        "constraintName": "fk_market_info_to_offers_to_1",
+        "visible": true,
+        "id": "7bd6a359-51cf-46e0-9f10-be3c29158024"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 957.13720703125,
+          "y": 981,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "929e9653-4063-4b8b-848a-4e42cfe68238",
+          "columnIds": [
+            "f3aa13c1-9b62-4df7-a7ca-c412cc5b3ae4"
+          ],
+          "x": 1086,
+          "y": 354.25,
+          "direction": "left"
+        },
+        "constraintName": "fk_market_info_to_offers_to_2",
+        "visible": true,
+        "id": "53734d1a-75a1-4e9b-9bfe-452baeeaa2cf"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "fe22a985-9ca1-4afd-beb2-9c4403a24f7e",
+          "columnIds": [
+            "af3837ec-e3a6-45c9-a011-335b47137528"
+          ],
+          "x": 416.26416015625,
+          "y": 122,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "36fe9d31-4f74-48bd-8eb2-9ff74017f5ff",
+          "columnIds": [
+            "fd88834b-31f6-4eb9-94ce-812b9a461c31"
+          ],
+          "x": 392.949462890625,
+          "y": 313.75,
+          "direction": "top"
+        },
+        "constraintName": "fk_donate_money_to_regular_donations",
+        "visible": true,
+        "id": "625c6fcf-d991-441f-9e78-c3b2d8f2ac0f"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 1090.56201171875,
+          "y": 981,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "36fe9d31-4f74-48bd-8eb2-9ff74017f5ff",
+          "columnIds": [
+            "e14a5959-6172-4dda-b17b-e67a3f37f1ec"
+          ],
+          "x": 733.2978515625,
+          "y": 379,
+          "direction": "right"
+        },
+        "constraintName": "fk_market_info_to_regular_donations",
+        "visible": true,
+        "id": "8897bef0-c81b-4dae-bc8c-be352a9c3037"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "92a29336-9a04-43cf-ae1a-4ee81c8b3624",
+          "columnIds": [
+            "6531c80c-048f-42c7-8a22-faffde535df4"
+          ],
+          "x": 600.5,
+          "y": 121.75,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "36fe9d31-4f74-48bd-8eb2-9ff74017f5ff",
+          "columnIds": [
+            "aa6fa0c8-79d7-484e-a48a-564e92ca2681"
+          ],
+          "x": 619.848388671875,
+          "y": 313.75,
+          "direction": "top"
+        },
+        "constraintName": "fk_participate_keys_to_regular_donations",
+        "visible": true,
+        "id": "52add31c-4564-49ef-b7c9-4f29799e0683"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "3e0c651c-c0c6-4797-9e18-2dcdf967a4f7",
+          "columnIds": [
+            "9c0fe8fb-79a2-412d-811f-7e69d1eabd99"
+          ],
+          "x": 1580.2890625,
+          "y": 1577.75,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "6897044a-990e-49b4-ad6f-688638f30710",
+          "columnIds": [
+            "3f4fd4e3-40b8-464c-abd1-bf55cebd4acd"
+          ],
+          "x": 1581.5390625,
+          "y": 1441,
+          "direction": "bottom"
+        },
+        "constraintName": "fk_region_numbers_to_market_regions",
+        "visible": true,
+        "id": "2a8e48d3-8c6d-479f-bec7-62296a1f00a8"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroOne",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 1157.2744140625,
+          "y": 1078.875,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "6897044a-990e-49b4-ad6f-688638f30710",
+          "columnIds": [
+            "e2d1c756-0c3c-4b92-b30c-81d89d31abc9"
+          ],
+          "x": 1372.75,
+          "y": 1386,
+          "direction": "left"
+        },
+        "constraintName": "fk_market_info_to_market_regions",
+        "visible": true,
+        "id": "3c91e097-fb4b-4968-b329-47e88c832f97"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "54bc7aa6-b4b6-4525-8a56-f510905f9551",
+          "columnIds": [
+            "773c1c09-90c4-4962-b819-96aa6ed428ba"
+          ],
+          "x": 271.315673828125,
+          "y": 813.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "d8d2cf7b-a0a9-4471-bbec-7364f245bf8a",
+          "columnIds": [
+            "85ac8e5c-7a9d-4522-9e18-3b47a17c36be"
+          ],
+          "x": 271.315673828125,
+          "y": 924.5,
+          "direction": "top"
+        },
+        "constraintName": "fk_phone_numbers_to_market_contacts",
+        "visible": true,
+        "id": "a1cdcd5d-d649-466b-9f20-500421f4de2e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 757,
+          "y": 1013.625,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "d8d2cf7b-a0a9-4471-bbec-7364f245bf8a",
+          "columnIds": [
+            "34e8a5dd-12d5-4971-9582-7ab637143479"
+          ],
+          "x": 507.63134765625,
+          "y": 979.5,
+          "direction": "right"
+        },
+        "constraintName": "fk_market_info_to_market_contacts",
+        "visible": true,
+        "id": "73c3c1b9-a650-42f2-b0b7-79c37aadac1e"
+      }
+    ]
+  }
+}
