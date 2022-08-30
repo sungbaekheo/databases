@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -546,
-    "scrollLeft": -310,
-    "zoomLevel": 0.4,
+    "scrollTop": -450,
+    "scrollLeft": -384,
+    "zoomLevel": 1,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -794,11 +794,11 @@
         "id": "fd90108f-48d0-40b8-a942-6e0470fd21e6"
       },
       {
-        "name": "MENUS",
+        "name": "BENEFITS",
         "comment": "",
         "columns": [
           {
-            "name": "MENU_UNIQUE_KEY",
+            "name": "BENEFIT_UNIQUE_KEY",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -813,7 +813,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 121.0185546875,
+              "widthName": 131.2001953125,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -821,7 +821,7 @@
             "id": "23d68708-78fa-4ba1-9655-2677633c3466"
           },
           {
-            "name": "MENU",
+            "name": "BENEFIT",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -848,7 +848,7 @@
           "active": false,
           "left": 1519.75,
           "top": 681.5,
-          "zIndex": 571,
+          "zIndex": 643,
           "widthName": 60,
           "widthComment": 60
         },
@@ -860,7 +860,7 @@
         "comment": "",
         "columns": [
           {
-            "name": "MENU_UNIQUE_KEY",
+            "name": "BENEFIT_UNIQUE_KEY",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -875,7 +875,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 121.0185546875,
+              "widthName": 131.2001953125,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -910,7 +910,7 @@
           "active": false,
           "left": 1259,
           "top": 911.75,
-          "zIndex": 563,
+          "zIndex": 647,
           "widthName": 102.0263671875,
           "widthComment": 60
         },
@@ -1485,7 +1485,7 @@
           "columnIds": [
             "23d68708-78fa-4ba1-9655-2677633c3466"
           ],
-          "x": 1723.75927734375,
+          "x": 1728.85009765625,
           "y": 791.5,
           "direction": "bottom"
         },
@@ -1494,7 +1494,7 @@
           "columnIds": [
             "3ca2708f-ab30-4d52-ad62-12a0d5d7083f"
           ],
-          "x": 1667.0185546875,
+          "x": 1677.2001953125,
           "y": 966.75,
           "direction": "right"
         },
