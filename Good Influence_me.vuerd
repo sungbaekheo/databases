@@ -3,9 +3,9 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
-    "scrollLeft": 0,
-    "zoomLevel": 0.9,
+    "scrollTop": -371,
+    "scrollLeft": -258,
+    "zoomLevel": 0.6,
     "show": {
       "tableComment": true,
       "columnComment": true,
@@ -120,7 +120,7 @@
           "active": false,
           "left": 757,
           "top": 981,
-          "zIndex": 540,
+          "zIndex": 603,
           "widthName": 87.29345703125,
           "widthComment": 60
         },
@@ -1027,14 +1027,14 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "9bee4e51-5f84-4a59-8289-7d54ff41ae97"
+            "id": "33c62242-e3df-4c1f-bc33-69ed2d10bc43"
           }
         ],
         "ui": {
           "active": false,
           "left": 1085,
           "top": 446.25,
-          "zIndex": 569,
+          "zIndex": 600,
           "widthName": 81.3203125,
           "widthComment": 60
         },
@@ -1089,14 +1089,14 @@
               "widthDataType": 60,
               "widthDefault": 60
             },
-            "id": "f3aa13c1-9b62-4df7-a7ca-c412cc5b3ae4"
+            "id": "7e2b9985-ce0d-4216-951a-c1bb9a70505c"
           }
         ],
         "ui": {
           "active": false,
           "left": 1086,
           "top": 299.25,
-          "zIndex": 568,
+          "zIndex": 602,
           "widthName": 81.3203125,
           "widthComment": 60
         },
@@ -1255,29 +1255,6 @@
             "id": "fd88834b-31f6-4eb9-94ce-812b9a461c31"
           },
           {
-            "name": "MARKET_NUMBER",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 110.53857421875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "e14a5959-6172-4dda-b17b-e67a3f37f1ec"
-          },
-          {
             "name": "PARTICIPANTS_UNIQUE_KEY",
             "comment": "",
             "dataType": "",
@@ -1299,13 +1276,36 @@
               "widthDefault": 60
             },
             "id": "aa6fa0c8-79d7-484e-a48a-564e92ca2681"
+          },
+          {
+            "name": "MARKET_NUMBER",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 110.53857421875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ac39a03b-e819-46e4-9710-c7b9056f58e5"
           }
         ],
         "ui": {
           "active": false,
           "left": 279.5,
           "top": 313.75,
-          "zIndex": 533,
+          "zIndex": 604,
           "widthName": 137.9541015625,
           "widthComment": 60
         },
@@ -1585,58 +1585,6 @@
         "relationshipType": "ZeroN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
-          "columnIds": [
-            "a4747042-0646-4111-a8fd-65ec61169b91"
-          ],
-          "x": 823.71240234375,
-          "y": 981,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "62d54612-1a93-47d2-aa80-883a333bb8a6",
-          "columnIds": [
-            "9bee4e51-5f84-4a59-8289-7d54ff41ae97"
-          ],
-          "x": 1085,
-          "y": 501.25,
-          "direction": "left"
-        },
-        "constraintName": "fk_market_info_to_offers_to_1",
-        "visible": true,
-        "id": "7bd6a359-51cf-46e0-9f10-be3c29158024"
-      },
-      {
-        "identification": false,
-        "relationshipType": "ZeroN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
-          "columnIds": [
-            "a4747042-0646-4111-a8fd-65ec61169b91"
-          ],
-          "x": 957.13720703125,
-          "y": 981,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "929e9653-4063-4b8b-848a-4e42cfe68238",
-          "columnIds": [
-            "f3aa13c1-9b62-4df7-a7ca-c412cc5b3ae4"
-          ],
-          "x": 1086,
-          "y": 354.25,
-          "direction": "left"
-        },
-        "constraintName": "fk_market_info_to_offers_to_2",
-        "visible": true,
-        "id": "53734d1a-75a1-4e9b-9bfe-452baeeaa2cf"
-      },
-      {
-        "identification": false,
-        "relationshipType": "ZeroN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "fe22a985-9ca1-4afd-beb2-9c4403a24f7e",
           "columnIds": [
             "af3837ec-e3a6-45c9-a011-335b47137528"
@@ -1657,32 +1605,6 @@
         "constraintName": "fk_donate_money_to_regular_donations",
         "visible": true,
         "id": "625c6fcf-d991-441f-9e78-c3b2d8f2ac0f"
-      },
-      {
-        "identification": false,
-        "relationshipType": "ZeroN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
-          "columnIds": [
-            "a4747042-0646-4111-a8fd-65ec61169b91"
-          ],
-          "x": 1090.56201171875,
-          "y": 981,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "36fe9d31-4f74-48bd-8eb2-9ff74017f5ff",
-          "columnIds": [
-            "e14a5959-6172-4dda-b17b-e67a3f37f1ec"
-          ],
-          "x": 733.2978515625,
-          "y": 379,
-          "direction": "right"
-        },
-        "constraintName": "fk_market_info_to_regular_donations",
-        "visible": true,
-        "id": "8897bef0-c81b-4dae-bc8c-be352a9c3037"
       },
       {
         "identification": false,
@@ -1813,6 +1735,84 @@
         "constraintName": "fk_market_info_to_market_contacts",
         "visible": true,
         "id": "73c3c1b9-a650-42f2-b0b7-79c37aadac1e"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 823.71240234375,
+          "y": 981,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "62d54612-1a93-47d2-aa80-883a333bb8a6",
+          "columnIds": [
+            "33c62242-e3df-4c1f-bc33-69ed2d10bc43"
+          ],
+          "x": 1085,
+          "y": 501.25,
+          "direction": "left"
+        },
+        "constraintName": "fk_market_info_to_offers_to_1",
+        "visible": true,
+        "id": "91b6837c-974e-498d-a04b-186b8cf0b640"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 957.13720703125,
+          "y": 981,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "929e9653-4063-4b8b-848a-4e42cfe68238",
+          "columnIds": [
+            "7e2b9985-ce0d-4216-951a-c1bb9a70505c"
+          ],
+          "x": 1086,
+          "y": 354.25,
+          "direction": "left"
+        },
+        "constraintName": "fk_market_info_to_offers_to_2",
+        "visible": true,
+        "id": "fd2e5ce7-db08-4a36-acca-47a4b8941ff9"
+      },
+      {
+        "identification": false,
+        "relationshipType": "ZeroN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "7be7af66-dadb-48c9-a9f9-207e27c10a8d",
+          "columnIds": [
+            "a4747042-0646-4111-a8fd-65ec61169b91"
+          ],
+          "x": 1090.56201171875,
+          "y": 981,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "36fe9d31-4f74-48bd-8eb2-9ff74017f5ff",
+          "columnIds": [
+            "ac39a03b-e819-46e4-9710-c7b9056f58e5"
+          ],
+          "x": 733.2978515625,
+          "y": 379,
+          "direction": "right"
+        },
+        "constraintName": "fk_market_info_to_regular_donations",
+        "visible": true,
+        "id": "8f4b24ee-84b7-49bb-aa5b-ed2280e9a104"
       }
     ]
   }
