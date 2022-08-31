@@ -3,7 +3,7 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": 0,
+    "scrollTop": -4,
     "scrollLeft": 0,
     "zoomLevel": 1,
     "show": {
@@ -166,7 +166,7 @@
           "active": false,
           "left": 14.5357,
           "top": 543,
-          "zIndex": 379,
+          "zIndex": 2,
           "widthName": 60,
           "widthComment": 60
         },
@@ -527,7 +527,7 @@
           "active": false,
           "left": 333,
           "top": 33,
-          "zIndex": 378,
+          "zIndex": 1,
           "widthName": 70.94189453125,
           "widthComment": 60
         },
@@ -586,7 +586,7 @@
           },
           {
             "name": "IsOfficial",
-            "comment": "공용어 여부",
+            "comment": "공식 언어 여부",
             "dataType": "enum",
             "default": "",
             "option": {
@@ -601,7 +601,7 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
-              "widthComment": 71.5703125,
+              "widthComment": 89.140625,
               "widthDataType": 60,
               "widthDefault": 60
             },
@@ -632,10 +632,10 @@
           }
         ],
         "ui": {
-          "active": true,
+          "active": false,
           "left": 726,
           "top": 556,
-          "zIndex": 380,
+          "zIndex": 6,
           "widthName": 125.30322265625,
           "widthComment": 60
         },
