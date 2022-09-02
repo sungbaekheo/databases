@@ -1,0 +1,1 @@
+DELETE FROM company WHERE SALARY < 100;
